@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15,7 +16,7 @@ MonoBehaviour:
   GearTextName: GearText
   FWD: 1
   RWD: 1
-  CarMass: 2020
+  CarMass: 202
   FrontWheelMass: 13.5
   RearWheelMass: 13.5
   MaxSpeed: 325
@@ -29,4 +30,4 @@ MonoBehaviour:
   - 0.625
   - 0.519
   Transmission: 00010000000000
-  currentTransmission: 2
+  currentTransmission: 0
