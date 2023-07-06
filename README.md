@@ -22,7 +22,15 @@ The game is surrealist-absurdist-tragicomedy-horror in genre.
 
 1. Clone the repository or download the ZIP file.
 2. Open the project in Unity (compatible with version 2022.3.1).
-3. Press the play button to play the game.
+3. Repository project folder consists of the source code, build and the README.md file.
+4. The game begins with a start screen where you (player) can select a button to start the game. (Functionality of other buttons currently in development.)
+5. Select a level to play.
+6. The game starts. (Both levels are currently in development.)
+7. --
+8. The camera following the player is not working as of now, will include parallax effect.
+9. Game physics are in development.
+10. The game has a dummy character and basic initial platforms as of now.
+11. The obstacles and the enemies are in development.
 
 <!-- Add clear and concise installation instructions, including any specific steps or dependencies required to set up and run the game esp. if outside of WebGL -->
 
