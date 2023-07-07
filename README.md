@@ -76,7 +76,7 @@ Game developers:
 
 1. Anna Tsaan
 2. Atai Ruslan Uulu
-3. Elisabeth Cherkassowa
+3. Yelyzaveta Cherkassowa
 4. Gabriel D. Hamalwa
 5. Sarah Malik
 
