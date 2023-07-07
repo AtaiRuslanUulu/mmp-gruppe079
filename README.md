@@ -74,7 +74,7 @@ If you'd like to contribute to our project, follow these steps:
 
 Game developers: 
 
-1. Anna Zahn
+1. Anna Tsaan
 2. Atai Ruslan Uulu
 3. Elisabeth Cherkassowa
 4. Gabriel D. Hamalwa
