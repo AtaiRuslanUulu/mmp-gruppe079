@@ -20,8 +20,8 @@ public class VehicleDrive : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _frontWheelRB.AddTorque(-moveInput*_speed*Time.fixedDeltaTime);
-        _backWheelRB.AddTorque(-moveInput*_speed*Time.fixedDeltaTime);
+        _frontWheelRB.AddTorque(-moveInput*_speed*Time.fixedDeltaTime*10);
+        _backWheelRB.AddTorque(-moveInput*_speed*Time.fixedDeltaTime*10);
         _caRb.AddTorque(moveInput*_rotationspeed*Time.fixedDeltaTime);
     }
 }
