@@ -2379,7 +2379,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 547037166}
-  - {fileID: 291187225}
   - {fileID: 1788642251}
   - {fileID: 1797519786}
   m_Father: {fileID: 0}
@@ -4539,7 +4538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9bf8c090cf0b11448c484bdd609425e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
+  coinText: {fileID: 547037167}
   currentCoins: 0
   collectionSoundEffect: {fileID: 2051355888}
   value: 0
