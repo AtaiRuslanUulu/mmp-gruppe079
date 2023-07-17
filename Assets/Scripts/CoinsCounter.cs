@@ -38,4 +38,10 @@ public class CoinsCounter : MonoBehaviour
         currentCoins += v;
         coinText.text = "COINS: " + currentCoins.ToString();
     }
+
+    public void DecreaseCoins(int v)
+    {
+        currentCoins -= v;
+        coinText.text = "COINS: " + currentCoins.ToString();
+    }
 }
