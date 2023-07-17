@@ -8,4 +8,9 @@ public class StartPlatformGame : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("odyssey_platform");
     }
+
+    public void StartNewCarGame()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+    }
 }
