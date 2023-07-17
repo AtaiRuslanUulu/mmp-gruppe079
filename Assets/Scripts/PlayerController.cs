@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private bool isFacingRight = true;
 
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private AudioSource jumpSoundEffect;
 
     void Update()
     {
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            jumpSoundEffect.Play();
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)

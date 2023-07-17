@@ -9,6 +9,10 @@ public class CoinsCounter : MonoBehaviour
     public TMP_Text coinText;
     public int currentCoins = 0;
 
+
+    [SerializeField] private AudioSource collectionSoundEffect;
+    public int value;
+
     void Awake()
     {
         instance = this;
@@ -18,6 +22,15 @@ public class CoinsCounter : MonoBehaviour
     void Start()
     {
         coinText.text = "COINS: " + currentCoins.ToString();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player")){
+            collectionSoundEffect.Play();
+            Destroy(gameObject);
+            CoinsCounter.instance.IncreaseCoins(value);
+        }
     }
 
     public void IncreaseCoins(int v)
