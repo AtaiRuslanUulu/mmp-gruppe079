@@ -10,6 +10,7 @@ public class BretzelController : MonoBehaviour
     [SerializeField] private Image _bretzelImage;
     [SerializeField, Range(0.1f,5f)] private float _bretzelDrainSpeed;
     [SerializeField] private float _maxbretzelAmount;
+    [SerializeField] private Gradient _bretzelGradient;
 
     private float _currentbretzelAmount;
 
@@ -30,9 +31,21 @@ public class BretzelController : MonoBehaviour
     {
         _currentbretzelAmount-= Time.deltaTime * _bretzelDrainSpeed;
         UpdateUI();
+
+        if(_currentbretzelAmount <= 0f)
+        {
+            RacingGameManagerScript.instance.GameOver();
+        }
     }
 
     private void UpdateUI(){
         _bretzelImage.fillAmount = (_currentbretzelAmount/_maxbretzelAmount);
+        _bretzelImage.color = _bretzelGradient.Evaluate(_bretzelImage.fillAmount);
+    }
+
+    public void fillBretzel()
+    {
+        _currentbretzelAmount = _maxbretzelAmount;
+        UpdateUI();
     }
 }
