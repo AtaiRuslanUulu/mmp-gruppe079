@@ -25,6 +25,6 @@ public class RacingGameManagerScript : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("LevelMenu");
     }
 }

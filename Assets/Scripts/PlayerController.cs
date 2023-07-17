@@ -10,6 +10,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private AudioSource jumpSoundEffect;
 
+    public GameObject BackToMainMenuButton;
+    public GameObject FinishText;
+
+    void Start()
+    {
+        BackToMainMenuButton.SetActive(false);
+        FinishText.SetActive(false);
+    }
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
