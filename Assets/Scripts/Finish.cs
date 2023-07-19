@@ -22,7 +22,6 @@ public class Finish : MonoBehaviour
             BackToMainMenuButton.SetActive(true);
             FinishText.SetActive(true);
             GoToNextLevel.SetActive(true);
-
         }
     }
 
