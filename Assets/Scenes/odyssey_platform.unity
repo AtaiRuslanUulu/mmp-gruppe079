@@ -18031,7 +18031,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 28.117271
+  orthographic size: 40
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -18055,7 +18055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935706536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.4, y: 18, z: -10}
+  m_LocalPosition: {x: 50, y: 30, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18075,7 +18075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowSpeed: 2
-  yOffset: 1
+  yOffset: 10
   target: {fileID: 2051355884}
 --- !u!114 &1935706541
 MonoBehaviour:
@@ -18500,8 +18500,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.026223987, y: 0.042070635}
-  m_Size: {x: 1.1736823, y: 1.5054759}
+  m_Offset: {x: -0.03765391, y: -0.029581832}
+  m_Size: {x: 1.8517706, y: 2.3474102}
   m_Direction: 0
 --- !u!50 &2051355882
 Rigidbody2D:
@@ -18610,6 +18610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxJumps: 2
+  animator: {fileID: 2051355891}
   rb: {fileID: 2051355882}
   jumpSoundEffect: {fileID: 2051355886}
   BackToMainMenuButton: {fileID: 177112115}

@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     private float jumpingPower = 15f;
     public int maxJumps = 2;
     private bool isFacingRight = true;
+    public Animator animator;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private AudioSource jumpSoundEffect;
@@ -23,6 +24,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        animator.SetFloat("velocity_x", rb.velocity.x);
+        animator.SetFloat("velocity_y", rb.velocity.y);
+
         if (Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
