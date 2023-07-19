@@ -10,6 +10,7 @@ public class CountdownLogic : MonoBehaviour
     [SerializeField] Image timeImage;
     [SerializeField] TextMeshProUGUI timeText;
     [SerializeField] float duration, currentTime;
+    [SerializeField] GameObject BackToMainMenuButton;
 
     // Start is called before the first frame update
     void Start()
@@ -36,5 +37,6 @@ public class CountdownLogic : MonoBehaviour
     {
        timeText.text = "";
        panel.SetActive(true);
+       BackToMainMenuButton.SetActive(true);
     }
 }

@@ -12,11 +12,13 @@ public class PlayerController : MonoBehaviour
 
     public GameObject BackToMainMenuButton;
     public GameObject FinishText;
+    public GameObject GoToNextLevel;
 
     void Start()
     {
         BackToMainMenuButton.SetActive(false);
         FinishText.SetActive(false);
+        GoToNextLevel.SetActive(false);
     }
 
     void Update()
