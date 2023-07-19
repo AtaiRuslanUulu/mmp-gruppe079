@@ -7,6 +7,7 @@ public class Finish : MonoBehaviour
     private AudioSource finishSound;
     public GameObject BackToMainMenuButton;
     public GameObject FinishText;
+    public GameObject GoToNextLevel;
 
     void Start()
     {
@@ -15,11 +16,12 @@ public class Finish : MonoBehaviour
 
     private  void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.name == "Player" || collision.gameObject.CompareTag("Player"))
         {
             finishSound.Play();
             BackToMainMenuButton.SetActive(true);
             FinishText.SetActive(true);
+            GoToNextLevel.SetActive(true);
 
         }
     }

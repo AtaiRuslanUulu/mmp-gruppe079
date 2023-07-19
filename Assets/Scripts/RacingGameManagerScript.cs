@@ -8,8 +8,16 @@ public class RacingGameManagerScript : MonoBehaviour
     public static RacingGameManagerScript instance;
 
     [SerializeField] private GameObject _gameOverCanvas;
+    [SerializeField] GameObject BackToMainMenuButton;
+    [SerializeField] GameObject FinishText;
 
-    private void Awake()
+    void Start()
+    {
+        BackToMainMenuButton.SetActive(false);
+        FinishText.SetActive(false);
+    }
+
+        private void Awake()
     {
         if (instance == null){
             instance = this;
