@@ -21,7 +21,7 @@ public class CoinsCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        coinText.text = "COINS: " + currentCoins.ToString();
+        coinText.text = currentCoins.ToString();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -36,12 +36,12 @@ public class CoinsCounter : MonoBehaviour
     public void IncreaseCoins(int v)
     {
         currentCoins += v;
-        coinText.text = "COINS: " + currentCoins.ToString();
+        coinText.text = currentCoins.ToString();
     }
 
     public void DecreaseCoins(int v)
     {
         currentCoins -= v;
-        coinText.text = "COINS: " + currentCoins.ToString();
+        coinText.text = currentCoins.ToString();
     }
 }
