@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FollowEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 278
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e542fb25829434666af365f119c49b7a
+      internalID: 612054625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 278
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8723ac0fbb0684d299d742bba4a9e1a1
+      internalID: 571359372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 278
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68ca887eb7ba4259ab8257a99608d1b
+      internalID: -335594700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 278
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95539b2b96a724c7c8e75947df19738e
+      internalID: 234612685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 278
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc2063af5f5044c78b8387fda99b309
+      internalID: -335805277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 154
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cb1263860274c3e82ca45caf7b5a1e
+      internalID: -1391478873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 154
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e7395b06a7b467db8368f4e663d891
+      internalID: -1169484490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 153
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1126e3135764ec9981d225ed5d8dcb
+      internalID: -2054805737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 154
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd61a12d55cdb46fea8f0b5fc52039c2
+      internalID: -1662997898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 154
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5463a0e598e4d3da109f901fc18e20
+      internalID: 1852907968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 26
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0f914f3d8e54764af4e3127fcd2dc6
+      internalID: -1373454005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 27
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00554f55f78ac4d758add4b02ab9c45a
+      internalID: -70724004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 27
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892c243f5d4134410bdebf505865de93
+      internalID: -1253598368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 27
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a804089eb167f42daa33f1cb51006c85
+      internalID: 892853558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FollowEnemy_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 26
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411e1c79a638945d4b4012f56b891b2d
+      internalID: -1020882676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +434,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FollowEnemy_0: 612054625
+      FollowEnemy_1: 571359372
+      FollowEnemy_10: -1373454005
+      FollowEnemy_11: -70724004
+      FollowEnemy_12: -1253598368
+      FollowEnemy_13: 892853558
+      FollowEnemy_14: -1020882676
+      FollowEnemy_2: -335594700
+      FollowEnemy_3: 234612685
+      FollowEnemy_4: -335805277
+      FollowEnemy_5: -1391478873
+      FollowEnemy_6: -1169484490
+      FollowEnemy_7: -2054805737
+      FollowEnemy_8: -1662997898
+      FollowEnemy_9: 1852907968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

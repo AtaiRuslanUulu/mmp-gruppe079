@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HiddenEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 656
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2812070ab88f241a59fae76435b92ad3
+      internalID: 116437627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 656
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe124100d9249429290d8419824fa5f9
+      internalID: -516016116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 656
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c678a7552fd9c46a69813ae25374049a
+      internalID: -1517960171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 656
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc783e3a24c154159bf44ae27b35af4e
+      internalID: -1869913815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 656
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d0fe91654b5450cb481c93e1aeb321
+      internalID: 1347329360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 656
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8612105c7cb3d44c4bb0e685b11254a3
+      internalID: -977004400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 656
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbbb03b575474b3d836e3cc0ef4f9d6
+      internalID: 1609603633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 656
+        width: 59
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd9bfe9a7236451fb365bf07cd530f2
+      internalID: -218611202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 530
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e186d67b0734e46aa81b70809a4c715d
+      internalID: -679065139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 530
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47febf61205754dc98c75425de8225d2
+      internalID: 2004520854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 530
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1533a4908cb9845b398c7d655e54193f
+      internalID: 947149247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 530
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884fadc1bc8df40f99911b02c2183666
+      internalID: 122988650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_12
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 530
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532a5ff3ca6204b2e9591133c043286a
+      internalID: 1087394359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_13
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 530
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b356554becfe84502aaf1db5105ee943
+      internalID: -1491642926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_14
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 530
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b483bbd3333534a1a9c5d31cda265ea6
+      internalID: 1229876339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_15
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 530
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02170b3d79b774407a95399979ec91f1
+      internalID: -39752085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 404
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0734e6eb6f1aa49a0b1211e6bcd536ae
+      internalID: 549302765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 404
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d206cae83102475d82986574dd45410
+      internalID: -80861146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_18
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 418
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8da9ee2bf1646fca7a10708e8de89f
+      internalID: 1420100035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_19
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 427
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c566c211267e34f9596c6343e4384567
+      internalID: -1453679799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_20
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 431
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5837a8bff025043b1820904d1001f297
+      internalID: 1541821834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_21
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 433
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0534f410e20a4b3d96fa0d967111b39
+      internalID: 1313506174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_22
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 435
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a27acfdb686495ea4652235af2156f
+      internalID: 919505529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_23
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 435
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1cfefdef77e4d638856f5719906add
+      internalID: -1766633897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 310
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f590dfa7726448385784a4b8ef16b3
+      internalID: 1691119308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 309
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5807338e4de448ea13c1e8592f42a3
+      internalID: -1338785636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_26
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 307
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ca8c75aa09f45f693a421cc6c96843
+      internalID: -1042405886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_27
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 305
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a2999c631144917aee7fe71eec4a2e
+      internalID: 2117495658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_28
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 302
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19ffcf44b4644eacbad2ded20a443e7
+      internalID: 338574198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_29
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 298
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625ddb7fde72841609fff252a20bb166
+      internalID: -2128889759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_30
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 293
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a44cfe43ab245749fba1cf7e48ac7c
+      internalID: -252210243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_31
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 277
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a75e9192adea41569e510d1685bbb9a
+      internalID: 757099938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 152
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ef7bcea792343079a0086d157df853
+      internalID: -1689033959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 152
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f786073bec924ed0bce12f74dbf39c9
+      internalID: 1818256259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 152
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbb84657235e4935841c8a4aa8dc1e5
+      internalID: 1674983223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_35
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 152
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e8b3e681b834c7da4906eebf4c0601
+      internalID: -1882806629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_36
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 152
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c16059b28e34348a6a3f551eb30fc5
+      internalID: 884319358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_37
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 152
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3184bf3a56746bc8a22c8eb14b8bd9
+      internalID: -1121340165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_38
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 152
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03941f91949994b6f8e6b108450962dd
+      internalID: -2079907146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_39
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 152
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9f7f35b8467473d86905afb18de000
+      internalID: 1498382936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 26
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73cb80f99a6d44b7918b053efa70016
+      internalID: -1524882539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_41
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 26
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d85faa8bffb412699aaba8a40d2108
+      internalID: -1665833409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 26
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee6fc31e08d840e682d0a9133fbee3e
+      internalID: 177364573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_43
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 26
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e671be606dc204ee683861ba44288511
+      internalID: 312557642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_44
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 26
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec5b1d6503214bd3b745cb26478723b
+      internalID: 868373121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_45
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 26
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0568516e38ac240429f8da9bb73a8ae3
+      internalID: -610452518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_46
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 26
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1b1ff205f704dc58553117e80d214e
+      internalID: -1761343890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiddenEnemy_47
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 26
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e61e4280a30b445aa899114ed0f43ac
+      internalID: -512486727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1127,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HiddenEnemy_0: 116437627
+      HiddenEnemy_1: -516016116
+      HiddenEnemy_10: 947149247
+      HiddenEnemy_11: 122988650
+      HiddenEnemy_12: 1087394359
+      HiddenEnemy_13: -1491642926
+      HiddenEnemy_14: 1229876339
+      HiddenEnemy_15: -39752085
+      HiddenEnemy_16: 549302765
+      HiddenEnemy_17: -80861146
+      HiddenEnemy_18: 1420100035
+      HiddenEnemy_19: -1453679799
+      HiddenEnemy_2: -1517960171
+      HiddenEnemy_20: 1541821834
+      HiddenEnemy_21: 1313506174
+      HiddenEnemy_22: 919505529
+      HiddenEnemy_23: -1766633897
+      HiddenEnemy_24: 1691119308
+      HiddenEnemy_25: -1338785636
+      HiddenEnemy_26: -1042405886
+      HiddenEnemy_27: 2117495658
+      HiddenEnemy_28: 338574198
+      HiddenEnemy_29: -2128889759
+      HiddenEnemy_3: -1869913815
+      HiddenEnemy_30: -252210243
+      HiddenEnemy_31: 757099938
+      HiddenEnemy_32: -1689033959
+      HiddenEnemy_33: 1818256259
+      HiddenEnemy_34: 1674983223
+      HiddenEnemy_35: -1882806629
+      HiddenEnemy_36: 884319358
+      HiddenEnemy_37: -1121340165
+      HiddenEnemy_38: -2079907146
+      HiddenEnemy_39: 1498382936
+      HiddenEnemy_4: 1347329360
+      HiddenEnemy_40: -1524882539
+      HiddenEnemy_41: -1665833409
+      HiddenEnemy_42: 177364573
+      HiddenEnemy_43: 312557642
+      HiddenEnemy_44: 868373121
+      HiddenEnemy_45: -610452518
+      HiddenEnemy_46: -1761343890
+      HiddenEnemy_47: -512486727
+      HiddenEnemy_5: -977004400
+      HiddenEnemy_6: 1609603633
+      HiddenEnemy_7: -218611202
+      HiddenEnemy_8: -679065139
+      HiddenEnemy_9: 2004520854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
