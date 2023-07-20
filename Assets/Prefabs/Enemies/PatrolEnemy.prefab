@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 5919541255434536920}
   - component: {fileID: 2951540418023860329}
   - component: {fileID: 3622254999793034377}
-  m_Layer: 0
+  - component: {fileID: -8081131337232685244}
+  m_Layer: 5
   m_Name: PatrolEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7512542532046812632
 SpriteRenderer:
@@ -134,7 +135,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &3622254999793034377
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -170,3 +171,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.029401071, y: -0.029404044}
   m_Size: {x: 2.888445, y: 1.7125795}
   m_Direction: 1
+--- !u!114 &-8081131337232685244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6630118513096275222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5689bd2095724462fab9de0f829f9e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints:
+  - {fileID: 0}
+  moveSpeed: 0
+  patrolDestination: 0
