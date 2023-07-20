@@ -36,4 +36,13 @@ public class PatrolMovement : MonoBehaviour
             }
         }
     }
+
+    private void OnDrawGizmos()
+    {
+        // draw circles
+        Gizmos.DrawWireSphere(patrolPoints[0].position, 0.5f); 
+        Gizmos.DrawWireSphere(patrolPoints[1].position, 0.5f);
+        // draw patrol path
+        Gizmos.DrawLine(patrolPoints[0].transform.position, patrolPoints[1].transform.position);
+    }
 }
