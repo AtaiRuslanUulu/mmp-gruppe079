@@ -31,6 +31,12 @@ public class ChaseMovement : MonoBehaviour
                transform.localScale = new Vector3((float)-12, (float)15, 1);
                transform.position += Vector3.right * moveSpeed * Time.deltaTime;
             }
+
+            // check if player close far enough to stop chase
+            if (Vector2.Distance(transform.position, playerTransform.position) > chaseDistance) 
+            {
+                isChasing = false; // go to lower code part
+            }
         }
 
         else
