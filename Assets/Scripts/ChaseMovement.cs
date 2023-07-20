@@ -21,12 +21,14 @@ public class ChaseMovement : MonoBehaviour
             if (transform.position.x > playerTransform.transform.position.x) 
             {
                // enemy is on players right side - enemy moves to player so left
+               transform.localScale = new Vector3((float)12, (float)15, 1);
                transform.position += Vector3.left * moveSpeed * Time.deltaTime;
             }
 
             if (transform.position.x < playerTransform.transform.position.x) 
             {
                // enemy is on players left side - enemy moves to player so right
+               transform.localScale = new Vector3((float)-12, (float)15, 1);
                transform.position += Vector3.right * moveSpeed * Time.deltaTime;
             }
         }

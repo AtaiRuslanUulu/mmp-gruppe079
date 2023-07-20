@@ -22506,6 +22506,14 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1296010374958644934, guid: 6ea2e97f3bea7432eaf18c68622bd39b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296010374958644934, guid: 6ea2e97f3bea7432eaf18c68622bd39b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296010374958644934, guid: 6ea2e97f3bea7432eaf18c68622bd39b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -311
       objectReference: {fileID: 0}
@@ -22650,8 +22658,8 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 2128202679}
   - {fileID: 1628514166}
-  moveSpeed: 14
+  moveSpeed: 16
   patrolDestination: 20
   playerTransform: {fileID: 2051355884}
   isChasing: 0
-  chaseDistance: 50
+  chaseDistance: 55
