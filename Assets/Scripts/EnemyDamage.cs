@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     public int damage;
+    [SerializeField] private AudioSource damageSoundEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +23,9 @@ public class EnemyDamage : MonoBehaviour
     {
         if (other.gameObject.tag == "Player") 
         {
-            //collectionSoundEffect.Play();
             //Destroy(gameObject); //destroy enemy when collides with player
             CoinsCounter.instance.DecreaseCoins(damage);
+            damageSoundEffect.Play();
         }
     }
-
 }
