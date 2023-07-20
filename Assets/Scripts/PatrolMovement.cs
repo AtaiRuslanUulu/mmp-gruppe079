@@ -18,6 +18,7 @@ public class PatrolMovement : MonoBehaviour
             if (Vector2.Distance(transform.position, patrolPoints[0].position) < .2f) 
             {
                 // close to patrol point then turn to other point
+                //transform.localScale = new Vector3(1, 1, 1);
                 patrolDestination = 1;
             }
         } 
@@ -30,6 +31,7 @@ public class PatrolMovement : MonoBehaviour
             if (Vector2.Distance(transform.position, patrolPoints[1].position) < .2f) 
             {
                 // send back to 0
+                //transform.localScale = new Vector3(-1, 1, 1);
                 patrolDestination = 0;
             }
         }
