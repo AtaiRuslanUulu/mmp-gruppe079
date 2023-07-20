@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2951540418023860329}
   - component: {fileID: 3622254999793034377}
   - component: {fileID: -8081131337232685244}
+  - component: {fileID: -1687194511913815125}
   m_Layer: 5
   m_Name: PatrolEnemy
   m_TagString: Untagged
@@ -165,7 +166,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.029401071, y: -0.029404044}
@@ -187,3 +188,16 @@ MonoBehaviour:
   - {fileID: 0}
   moveSpeed: 0
   patrolDestination: 0
+--- !u!114 &-1687194511913815125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6630118513096275222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f06faf11661942c1b2e6ef7ae0bbe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 2
