@@ -14349,7 +14349,7 @@ MonoBehaviour:
   panel: {fileID: 238114463}
   timeImage: {fileID: 1220912813}
   timeText: {fileID: 2105668653}
-  duration: 60
+  duration: 90
   currentTime: 0
   BackToMainMenuButton: {fileID: 177112115}
 --- !u!1 &1236312167
@@ -23400,7 +23400,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 60
+  m_text: 90
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
