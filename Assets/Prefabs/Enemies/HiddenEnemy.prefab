@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patrolPoints: []
-  moveSpeed: 0
+  moveSpeed: 6
   patrolDestination: 0
 --- !u!114 &6485833156941199164
 MonoBehaviour:
@@ -199,4 +199,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f06faf11661942c1b2e6ef7ae0bbe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 8
+  damage: 3
