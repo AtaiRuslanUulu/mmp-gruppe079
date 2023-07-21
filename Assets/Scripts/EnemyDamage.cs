@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    public int damage;
+    [SerializeField] private int damage;
     [SerializeField] private AudioSource damageSoundEffect;
 
     // Start is called before the first frame update

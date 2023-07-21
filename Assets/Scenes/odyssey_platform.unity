@@ -5940,9 +5940,9 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.1, y: 2}
-  m_SizeDelta: {x: -596, y: 50}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 467.40002, y: 2}
+  m_SizeDelta: {x: 367, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547037167
 MonoBehaviour:
@@ -6027,7 +6027,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -281.81876, y: 29.161865, z: 273.15375, w: -50.311768}
+  m_margin: {x: -281.81876, y: 29.161865, z: 540.19794, w: -50.311768}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9841,10 +9841,10 @@ RectTransform:
   m_Father: {fileID: 1250177111}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292.1, y: 136.1}
-  m_SizeDelta: {x: 76.1573, y: 70.8319}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 56, y: -43.460007}
+  m_SizeDelta: {x: 76.15729, y: 70.83191}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &884712296
 MonoBehaviour:
@@ -14291,10 +14291,10 @@ RectTransform:
   m_Father: {fileID: 1250177111}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291.3, y: 136.9}
-  m_SizeDelta: {x: 78.042, y: 71.69}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -52, y: -44.289993}
+  m_SizeDelta: {x: 78.04199, y: 71.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220912813
 MonoBehaviour:
@@ -14507,9 +14507,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9bf8c090cf0b11448c484bdd609425e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 0}
   currentCoins: 0
   collectionSoundEffect: {fileID: 0}
+  coinText: {fileID: 547037167}
   value: 0
 --- !u!95 &1250177116
 Animator:
@@ -17562,7 +17562,7 @@ GameObject:
   - component: {fileID: 1615383362}
   m_Layer: 0
   m_Name: Coins
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21856,9 +21856,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9bf8c090cf0b11448c484bdd609425e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 547037167}
   currentCoins: 0
   collectionSoundEffect: {fileID: 0}
+  coinText: {fileID: 547037167}
   value: 0
 --- !u!4 &1970579890 stripped
 Transform:
@@ -22765,9 +22765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9bf8c090cf0b11448c484bdd609425e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinText: {fileID: 547037167}
   currentCoins: 0
   collectionSoundEffect: {fileID: 2051355888}
+  coinText: {fileID: 547037167}
   value: 0
 --- !u!95 &2051355891
 Animator:
@@ -23375,10 +23375,10 @@ RectTransform:
   m_Father: {fileID: 1250177111}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 244.1, y: 123}
-  m_SizeDelta: {x: 800.26904, y: -285.5}
+  m_AnchoredPosition: {x: -147, y: -63.75}
+  m_SizeDelta: {x: 1763.269, y: 127.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2105668653
 MonoBehaviour:
@@ -23463,7 +23463,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 753.37317, y: -102.300995, z: 501.22623, w: -26.256653}
+  m_margin: {x: 1015.7618, y: -102.300995, z: 501.22623, w: -26.256653}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
