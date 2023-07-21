@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FollowEnemy_0
+      name: IntelligentEnemy_0
       rect:
         serializedVersion: 2
         x: 37
@@ -118,20 +118,20 @@ TextureImporter:
         width: 66
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e542fb25829434666af365f119c49b7a
-      internalID: 612054625
+      spriteID: 6b5c2ee4e2edd4d9da824534a0d93b74
+      internalID: 1734026195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_1
+      name: IntelligentEnemy_1
       rect:
         serializedVersion: 2
         x: 165
@@ -139,20 +139,20 @@ TextureImporter:
         width: 62
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8723ac0fbb0684d299d742bba4a9e1a1
-      internalID: 571359372
+      spriteID: e72fb1d45e3364e8ca6bd3a0923be564
+      internalID: -1297071706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_2
+      name: IntelligentEnemy_2
       rect:
         serializedVersion: 2
         x: 293
@@ -160,20 +160,20 @@ TextureImporter:
         width: 60
         height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e68ca887eb7ba4259ab8257a99608d1b
-      internalID: -335594700
+      spriteID: efbdad36a331f4044b6795bf2844f9ae
+      internalID: 604660026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_3
+      name: IntelligentEnemy_3
       rect:
         serializedVersion: 2
         x: 421
@@ -181,20 +181,20 @@ TextureImporter:
         width: 57
         height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95539b2b96a724c7c8e75947df19738e
-      internalID: 234612685
+      spriteID: 1ad473a48b6c3464693f9def8db75936
+      internalID: -1235673597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_4
+      name: IntelligentEnemy_4
       rect:
         serializedVersion: 2
         x: 548
@@ -202,20 +202,20 @@ TextureImporter:
         width: 55
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cc2063af5f5044c78b8387fda99b309
-      internalID: -335805277
+      spriteID: 01cbbe5346e694b6ba9a26d3a748af49
+      internalID: -1349613127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_5
+      name: IntelligentEnemy_5
       rect:
         serializedVersion: 2
         x: 33
@@ -223,20 +223,20 @@ TextureImporter:
         width: 55
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3cb1263860274c3e82ca45caf7b5a1e
-      internalID: -1391478873
+      spriteID: be4d3407cece94ea9a869c2cb798e396
+      internalID: 443934285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_6
+      name: IntelligentEnemy_6
       rect:
         serializedVersion: 2
         x: 160
@@ -244,20 +244,20 @@ TextureImporter:
         width: 55
         height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5e7395b06a7b467db8368f4e663d891
-      internalID: -1169484490
+      spriteID: 4328546e2cc154da98fd2c42256761a9
+      internalID: -583000151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_7
+      name: IntelligentEnemy_7
       rect:
         serializedVersion: 2
         x: 286
@@ -265,20 +265,20 @@ TextureImporter:
         width: 59
         height: 45
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c1126e3135764ec9981d225ed5d8dcb
-      internalID: -2054805737
+      spriteID: df3c119a69e9d4eb6bfe5f5179278547
+      internalID: -2062448858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_8
+      name: IntelligentEnemy_8
       rect:
         serializedVersion: 2
         x: 413
@@ -286,20 +286,20 @@ TextureImporter:
         width: 60
         height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd61a12d55cdb46fea8f0b5fc52039c2
-      internalID: -1662997898
+      spriteID: c9761e15f129946baa32601c868d0286
+      internalID: 50070193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_9
+      name: IntelligentEnemy_9
       rect:
         serializedVersion: 2
         x: 542
@@ -307,20 +307,20 @@ TextureImporter:
         width: 56
         height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb5463a0e598e4d3da109f901fc18e20
-      internalID: 1852907968
+      spriteID: 6f60ef2b056324e3c98ba4b1d23e42fa
+      internalID: -12938641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_10
+      name: IntelligentEnemy_10
       rect:
         serializedVersion: 2
         x: 28
@@ -328,20 +328,20 @@ TextureImporter:
         width: 59
         height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a0f914f3d8e54764af4e3127fcd2dc6
-      internalID: -1373454005
+      spriteID: 2a52afd5fb7de4581a4d64d813375a08
+      internalID: -4414639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_11
+      name: IntelligentEnemy_11
       rect:
         serializedVersion: 2
         x: 154
@@ -349,20 +349,20 @@ TextureImporter:
         width: 62
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00554f55f78ac4d758add4b02ab9c45a
-      internalID: -70724004
+      spriteID: 0a4467da1b5bd4c86ae181e6912b4f59
+      internalID: 1972752294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_12
+      name: IntelligentEnemy_12
       rect:
         serializedVersion: 2
         x: 286
@@ -370,20 +370,20 @@ TextureImporter:
         width: 59
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 892c243f5d4134410bdebf505865de93
-      internalID: -1253598368
+      spriteID: c5aa459d0d8704682b909832fe548d75
+      internalID: 1728099081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_13
+      name: IntelligentEnemy_13
       rect:
         serializedVersion: 2
         x: 417
@@ -391,20 +391,20 @@ TextureImporter:
         width: 59
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a804089eb167f42daa33f1cb51006c85
-      internalID: 892853558
+      spriteID: baea788425cb24844ab3175fa1fc85da
+      internalID: -2100045885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FollowEnemy_14
+      name: IntelligentEnemy_14
       rect:
         serializedVersion: 2
         x: 547
@@ -412,14 +412,14 @@ TextureImporter:
         width: 60
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411e1c79a638945d4b4012f56b891b2d
-      internalID: -1020882676
+      spriteID: 91973690e38a04413a62590cda6b1f00
+      internalID: 1796449601
       vertices: []
       indices: 
       edges: []
@@ -435,21 +435,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FollowEnemy_0: 612054625
-      FollowEnemy_1: 571359372
-      FollowEnemy_10: -1373454005
-      FollowEnemy_11: -70724004
-      FollowEnemy_12: -1253598368
-      FollowEnemy_13: 892853558
-      FollowEnemy_14: -1020882676
-      FollowEnemy_2: -335594700
-      FollowEnemy_3: 234612685
-      FollowEnemy_4: -335805277
-      FollowEnemy_5: -1391478873
-      FollowEnemy_6: -1169484490
-      FollowEnemy_7: -2054805737
-      FollowEnemy_8: -1662997898
-      FollowEnemy_9: 1852907968
+      IntelligentEnemy_0: 1734026195
+      IntelligentEnemy_1: -1297071706
+      IntelligentEnemy_10: -4414639
+      IntelligentEnemy_11: 1972752294
+      IntelligentEnemy_12: 1728099081
+      IntelligentEnemy_13: -2100045885
+      IntelligentEnemy_14: 1796449601
+      IntelligentEnemy_2: 604660026
+      IntelligentEnemy_3: -1235673597
+      IntelligentEnemy_4: -1349613127
+      IntelligentEnemy_5: 443934285
+      IntelligentEnemy_6: -583000151
+      IntelligentEnemy_7: -2062448858
+      IntelligentEnemy_8: 50070193
+      IntelligentEnemy_9: -12938641
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
