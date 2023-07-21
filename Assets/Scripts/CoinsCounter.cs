@@ -6,11 +6,9 @@ using TMPro;
 public class CoinsCounter : MonoBehaviour
 {
     public static CoinsCounter instance;
-    public TMP_Text coinText;
     public int currentCoins = 0;
-
-
     [SerializeField] private AudioSource collectionSoundEffect;
+    [SerializeField] private TMP_Text coinText;
     public int value;
 
     void Awake()
